@@ -9,4 +9,5 @@ def char_count_fun(a):
 		print(b[i]," repeats ",a.count(b[i])," time(s)")
 
 a=input("Enter A String : ")
-char_count_fun(a)
+c=a.lower()
+char_count_fun(c)
